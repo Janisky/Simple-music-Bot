@@ -10,7 +10,7 @@ node.js v16.6.0 o superior
 
 Cambiar el archivo .env.example a .env y rellenar los campos:
 
-```json
+```
 TOKEN_BOT="Tu token de bot"
 GUILD_ID="ID del servidor"
 ```
