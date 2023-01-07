@@ -15,6 +15,9 @@ TOKEN_BOT="Tu token de bot"
 GUILD_ID="ID del servidor"
 ```
 
+Obtener el token de bot en la página de [Discord Developer Portal](https://discord.com/developers/applications)\
+Como obtener el ID del servidor: [Discord Support](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+
 ## Instalación y ejecución
 
 ```bash
