@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "author": "Janisky (Alejandro)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.8.0",
     "@discordjs/voice": "^0.14.0",
