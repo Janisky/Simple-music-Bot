@@ -21,6 +21,8 @@ Como obtener el ID del servidor: [Discord Support](https://support.discord.com/h
 ## Instalación y ejecución
 
 ```bash
+git clone git@github.com:Janisky/Simple-music-Bot.git
+cd Simple-music-Bot
 npm install
 npm start
 ```
