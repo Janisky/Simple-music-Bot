@@ -26,7 +26,7 @@ module.exports = {
                 try {
                     let old = queue.songs[0]
                     await client.player.jump(interaction, number).then(song => {
-                        return interaction.reply({ content: `Saltando a la cancion ${old.name}` }).catch(e => { console.log(e)})
+                        return interaction.reply({ content: `Saltando a la cancion ${old.name}` }).catch(e => { })
                     })
                 } catch (e) {
                     console.log(e)
@@ -36,10 +36,10 @@ module.exports = {
                 try {
                     let old = queue.songs[0]
                     const sucess = await queue.skip()
-                    return interaction.reply({ content: sucess ? `Saltando a la cancion: **${old.name}**`: 'Cancion saltada' }).catch(e => { console.log(e)})
+                    return interaction.reply({ content: sucess ? `Saltando a la cancion: **${old.name}**`: 'Cancion saltada' }).catch(e => { })
                 } catch (e) {
                     console.log(e)
-                    return interaction.reply({ content: `Se genero un error, revisar consola, skip 2`, ephemeral: true }).catch(e => { })
+                    return interaction.reply({ content: `No hay mas canciones que saltar.`, ephemeral: true }).catch(e => { })
                 }
             }
         } catch (e) {

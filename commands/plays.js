@@ -27,7 +27,7 @@ module.exports = {
                 const name = interaction.options.getString('name')
                 if (!name) return interaction.reply({ content: 'Debe de tener un link o nombre a buscar.', ephemeral: true }).catch(e => { })
 
-                await interaction.reply({ content: `idk`, ephemeral: true }).catch(e => { })
+                await interaction.reply({ content: `Se agrego la muisica de forma correcta.`, ephemeral: true }).catch(e => { })
                 try {
                     await client.player.play(interaction.member.voice.channel, name, {
                         member: interaction.member,
